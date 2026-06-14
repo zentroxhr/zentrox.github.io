@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Opportunities | Zentrox Recruitment</title>
+    <meta name="description" content="Browse job opportunities at Zentrox. Find your next career move with our featured job listings.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Zentrox</div>
+            <nav class="nav-menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="jobs.html" class="active">Jobs</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container">
+        <h1>Job Opportunities</h1>
+        <p>Find your next career opportunity with Zentrox</p>
+    </div>
+</section>
+
+<!-- Search and Filter -->
+<section class="jobs-section">
+    <div class="container">
+        <div class="search-filter">
+            <input type="text" id="searchInput" placeholder="Search by job title or company..." class="search-box">
+            <select id="locationFilter" class="filter-select">
+                <option value="">All Locations</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Remote">Remote</option>
+            </select>
+            <select id="categoryFilter" class="filter-select">
+                <option value="">All Categories</option>
+                <option value="IT">IT</option>
+                <option value="Finance">Finance</option>
+                <option value="Healthcare">Healthcare</option>
+                <option value="Manufacturing">Manufacturing</option>
+            </select>
+        </div>
+
+        <div class="jobs-list">
+            <!-- Job Card 1 -->
+            <div class="job-card" data-location="Chennai" data-category="IT">
+                <div class="job-header">
+                    <h3>Senior Software Engineer</h3>
+                    <span class="job-type">Full-time</span>
+                </div>
+                <p class="job-company">Tech Innovations Inc.</p>
+                <div class="job-details">
+                    <span><i class="fas fa-map-marker-alt"></i> Chennai</span>
+                    <span><i class="fas fa-briefcase"></i> IT</span>
+                    <span><i class="fas fa-rupee-sign"></i> 12-18 LPA</span>
+                </div>
+                <p class="job-description">We're looking for experienced Senior Software Engineers with 5+ years of experience in full-stack development. Strong knowledge of Java, Python, and cloud technologies required.</p>
+                <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+
+            <!-- Job Card 2 -->
+            <div class="job-card" data-location="Remote" data-category="IT">
+                <div class="job-header">
+                    <h3>Frontend Developer</h3>
+                    <span class="job-type">Full-time</span>
+                </div>
+                <p class="job-company">Digital Solutions Ltd.</p>
+                <div class="job-details">
+                    <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                    <span><i class="fas fa-briefcase"></i> IT</span>
+                    <span><i class="fas fa-rupee-sign"></i> 8-12 LPA</span>
+                </div>
+                <p class="job-description">Join our remote team as a Frontend Developer. Expertise in React, JavaScript, and responsive design required. Experience with modern web frameworks is a plus.</p>
+                <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+
+            <!-- Job Card 3 -->
+            <div class="job-card" data-location="Bangalore" data-category="Finance">
+                <div class="job-header">
+                    <h3>Financial Analyst</h3>
+                    <span class="job-type">Full-time</span>
+                </div>
+                <p class="job-company">Capital Finance Group</p>
+                <div class="job-details">
+                    <span><i class="fas fa-map-marker-alt"></i> Bangalore</span>
+                    <span><i class="fas fa-briefcase"></i> Finance</span>
+                    <span><i class="fas fa-rupee-sign"></i> 10-15 LPA</span>
+                </div>
+                <p class="job-description">Seeking skilled Financial Analysts with 3+ years experience in financial modeling and analysis. CFA certification or MBA preferred.</p>
+                <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+
+            <!-- Job Card 4 -->
+            <div class="job-card" data-location="Mumbai" data-category="Finance">
+                <div class="job-header">
+                    <h3>Investment Manager</h3>
+                    <span class="job-type">Full-time</span>
+                </div>
+                <p class="job-company">Wealth Advisors International</p>
+                <div class="job-details">
+                    <span><i class="fas fa-map-marker-alt"></i> Mumbai</span>
+                    <span><i class="fas fa-briefcase"></i> Finance</span>
+                    <span><i class="fas fa-rupee-sign"></i> 15-22 LPA</span>
+                </div>
+                <p class="job-description">Experienced Investment Managers needed to manage portfolios and provide strategic advice to high-net-worth clients.</p>
+                <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+
+            <!-- Job Card 5 -->
+            <div class="job-card" data-location="Chennai" data-category="Healthcare">
+                <div class="job-header">
+                    <h3>Healthcare Administrator</h3>
+                    <span class="job-type">Full-time</span>
+                </div>
+                <p class="job-company">Apollo Medical Centers</p>
+                <div class="job-details">
+                    <span><i class="fas fa-map-marker-alt"></i> Chennai</span>
+                    <span><i class="fas fa-briefcase"></i> Healthcare</span>
+                    <span><i class="fas fa-rupee-sign"></i> 6-10 LPA</span>
+                </div>
+                <p class="job-description">Looking for skilled Healthcare Administrators with experience in hospital management and patient care coordination.</p>
+                <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+
+            <!-- Job Card 6 -->
+            <div class="job-card" data-location="Delhi" data-category="Manufacturing">
+                <div class="job-header">
+                    <h3>Production Manager</h3>
+                    <span class="job-type">Full-time</span>
+                </div>
+                <p class="job-company">Industrial Manufacturing Corp</p>
+                <div class="job-details">
+                    <span><i class="fas fa-map-marker-alt"></i> Delhi</span>
+                    <span><i class="fas fa-briefcase"></i> Manufacturing</span>
+                    <span><i class="fas fa-rupee-sign"></i> 8-14 LPA</span>
+                </div>
+                <p class="job-description">Seeking experienced Production Managers with strong knowledge of manufacturing processes and team leadership.</p>
+                <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta">
+    <div class="container">
+        <h2>Don't See What You're Looking For?</h2>
+        <p>Submit your resume and let our recruiters find the perfect opportunity for you</p>
+        <a href="contact.html" class="btn btn-primary">Send Your Resume</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Zentrox</h3>
+                <p>Connecting top talent with peak opportunities across multiple industries.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="services.html">Permanent Recruitment</a></li>
+                    <li><a href="services.html">Executive Search</a></li>
+                    <li><a href="services.html">Contract Staffing</a></li>
+                    <li><a href="services.html">Talent Acquisition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:info@zentrox.com">info@zentrox.com</a></p>
+                <p>Phone: <a href="tel:+918610027046">+91 86100 27046</a></p>
+                <p>Location: Chennai, Tamil Nadu, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Zentrox. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>
+    // Job filter functionality
+    const searchInput = document.getElementById('searchInput');
+    const locationFilter = document.getElementById('locationFilter');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const jobCards = document.querySelectorAll('.job-card');
+
+    function filterJobs() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const location = locationFilter.value;
+        const category = categoryFilter.value;
+
+        jobCards.forEach(card => {
+            const title = card.querySelector('h3').textContent.toLowerCase();
+            const company = card.querySelector('.job-company').textContent.toLowerCase();
+            const cardLocation = card.dataset.location;
+            const cardCategory = card.dataset.category;
+
+            const matchSearch = title.includes(searchTerm) || company.includes(searchTerm);
+            const matchLocation = !location || cardLocation === location;
+            const matchCategory = !category || cardCategory === category;
+
+            if (matchSearch && matchLocation && matchCategory) {
+                card.style.display = 'block';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    searchInput.addEventListener('input', filterJobs);
+    locationFilter.addEventListener('change', filterJobs);
+    categoryFilter.addEventListener('change', filterJobs);
+</script>
+</body>
+</html>
